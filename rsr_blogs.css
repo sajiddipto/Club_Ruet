@@ -1,0 +1,215 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* Main Stying Goes From Here */
+
+body
+{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-weight: 500;
+}
+
+.img-container
+{
+    background-image: url(electronics-diy-circuit-board-attiny2313.jpg);
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+/* Low Opacity Background for Navigation */
+
+nav
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(77, 245, 113,0.1);
+}
+
+/* For Head 'Club Ruet' */
+
+nav h1 a
+{
+    font-size: 50px;
+    text-decoration: none;
+    color:#064034;
+    line-height: 100px;
+    float: left; 
+}
+
+/* For Taking the Navigations in the Right Corner withour Head */
+
+nav ul
+{
+    float: right;
+}
+
+/* For Navigation Lists i.e. Home,Clubs,etc. */
+
+nav ul li
+{
+    list-style: none;
+    display:inline-block;
+    float:left;
+    line-height: 100px;
+    color: #064034;
+    position: relative;
+}
+
+/* For Anchor Tags in the Lists of UL in the Navigation */
+
+nav ul li a
+{
+    display: block;
+    text-decoration: none;
+    padding: 0px 25px;
+    color:#064034 ;
+}
+
+nav ul li a:hover
+{
+    color: #800C04;
+}
+
+section
+{
+    width: 100%;
+    height: 100vh;
+    background: url(RSR_HOME.png);
+    background-size: cover;
+}
+
+section .leftbox
+{
+    width: 100%;
+    height: 100%;
+    float: center;
+    padding: 50px;
+    box-sizing: border-box;
+    
+}
+
+section .leftbox .content
+{
+    color: white;
+    background: rgba(6, 64, 52, 0.97);
+    padding: 40px;
+    transition: 2s;
+}
+
+section .leftbox .content:hover
+{
+    background: rgba(6, 64, 52, 0.5);
+}
+
+section .leftbox .content h1
+{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+section .leftbox .content p
+{
+    margin: 10px 0 0;
+    padding: 0;
+    font-weight: 300;
+}
